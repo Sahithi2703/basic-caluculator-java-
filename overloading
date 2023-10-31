@@ -1,0 +1,33 @@
+
+# creating a class with class name calculator
+class calculator{
+#creating a method  add,sud,mul,div
+void add (int a,float b)
+{
+    float c = a+b;
+    System.out.println("add="+c);
+}
+void sub(int a,int b){
+  int d=a-b;
+  System.out.println("sub="+d);
+}
+void mul(int a,int b){
+   int e=a*b;
+  System.out.println("mul="+e);
+}
+void div(int a,int b){
+  int g=a/b;
+  System.out.println("div="+g);
+}
+}
+#creating main class
+class Main{
+public static void main(String args[]){
+# creating object reference
+  calculator c1= new calculator();
+c1.add(2,4.01f);# passing values to function 
+c1.sub(3,5);
+c1.mul(2,2);
+c1.div(4,2);
+}
+}
